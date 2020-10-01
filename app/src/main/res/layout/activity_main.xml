@@ -13,4 +13,33 @@
         />
 
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_click"
+        android:text="Notification with click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_action"
+        android:text="Notification with action button"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_large_text"
+        android:text="Notification with Large Text"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_pic"
+        android:text="Notification with big picture"
+        />
+
+
 </LinearLayout>
