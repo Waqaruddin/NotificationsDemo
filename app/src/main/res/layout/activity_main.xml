@@ -2,7 +2,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@color/colorAccent"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to see Notifications"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textSize="32dp"
+        android:layout_margin="10dp"/>
 
 
     <Button
@@ -10,6 +20,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/button_simple_notification"
         android:text="Simple notification"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_rounded"
         />
 
 
@@ -17,28 +29,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_click"
+        android:layout_margin="10dp"
+
         android:text="Notification with click"
+        android:background="@drawable/button_rounded"
+
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_action"
+        android:layout_margin="10dp"
+
         android:text="Notification with action button"
+        android:background="@drawable/button_rounded"
+
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_large_text"
+        android:layout_margin="10dp"
+
         android:text="Notification with Large Text"
+        android:background="@drawable/button_rounded"
+
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button_pic"
+        android:layout_margin="10dp"
         android:text="Notification with big picture"
+        android:background="@drawable/button_rounded"
+
         />
 
 
